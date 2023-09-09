@@ -1,0 +1,5 @@
+2023-09-09 18:18:33.432555 - Nome do Cliente: rtes
+CNPJ da Empresa: teste
+Telefone do Cliente: asdasdas
+Hora do Atendimento: 2023-09-09 18:18:33
+Tipo de Atendimento: 1 Solicitação - Erro Abertura do Sistema:  O cliente solicitou assistência para investigar as possíveis causas que impedem a abertura do sistema. Foi necessário intervir e fornecer suporte técnico para identificar e resolver as questões relacionadas ao problema mencionado.

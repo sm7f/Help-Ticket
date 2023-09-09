@@ -1,5 +1,8 @@
+# ticket.help.py
+
 import tkinter as tk
 import win32clipboard
+import os
 import platform
 from datetime import datetime
 
@@ -18,6 +21,25 @@ def selecionar_texto(numero):
         print("Texto copiado para a área de transferência: ", texto_selecionado)
     else:
         print("Opção inválida.")
+
+
+
+def registrar_log(informacoes):
+    # Nome do arquivo de log (com base no mês e ano atuais)
+    data_atual = datetime.now()
+    nome_arquivo_log = data_atual.strftime("%Y-%m") + "_log.txt"
+
+    # Caminho completo para o arquivo de log
+    caminho_arquivo_log = os.path.join("logs", nome_arquivo_log)
+
+    # Crie o diretório "logs" se ele não existir
+    os.makedirs("logs", exist_ok=True)
+
+    # Registrar as informações no arquivo de log
+    with open(caminho_arquivo_log, "a") as arquivo_log:
+        arquivo_log.write(f"{datetime.now()} - {informacoes}\n")
+
+
 
 
 # Função para registrar o atendimento e copiar informações para a área de transferência
@@ -39,10 +61,15 @@ def registrar_atendimento():
         # Copiar informações para a área de transferência
         copiar_texto(informacoes_atendimento)
 
-        # Exibir mensagem de confirmação
-        tk.messagebox.showinfo("Registro de Atendimento", "Informações do atendimento copiadas para a área de transferência.")
+        registrar_log(informacoes_atendimento)
+
+
     else:
         tk.messagebox.showerror("Erro", "Tipo de Atendimento inválido.")
+
+
+
+
 
 
 # Textos pré-definidos

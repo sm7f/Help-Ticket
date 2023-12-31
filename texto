@@ -1,0 +1,3 @@
+file_rc.qrc
+
+pyuic5 file_rc.qrc -o file_rc.py

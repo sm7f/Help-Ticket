@@ -87,12 +87,9 @@ textos = {
     11: "11 Solicitação - Auxilio Extrair XML: O cliente solicitou assistência para extrair o arquivo XML referente ao mês em questão. Foi necessário intervir e fornecer suporte técnico para auxiliar o cliente no processo de extração do referido arquivo XML. ",
     12: "12 Solicitação - Auxilio Cancelar Nota: O cliente solicitou assistência para realizar o cancelamento de uma nota fiscal. Foi necessário intervir e fornecer suporte para auxiliar o cliente no processo de cancelamento da referida nota. ",
     13: "13 Solicitação - Auxilio Visualizar Relatório: O cliente solicitou assistência para visualizar o relatório solicitado. Foi necessário intervir e fornecer suporte técnico para auxiliar o cliente no processo de acesso e visualização do referido relatório.",
-    14: "14 Solicitação - (Contra-Senha) Sem Pendencia: O cliente solicitou assistência para gerar uma contra-senha e liberar o acesso ao sistema. Foi necessário intervir e fornecer suporte técnico para auxiliar o cliente na geração da contra-senha e garantir o acesso ao referido sistema.",
-    15: "15 Solicitação - (Contra-Senha) Block Transfe: Foi identificada uma pendência e o cliente foi transferido para o setor responsável para solução. A pendência está relacionada à geração da contra-senha e acesso ao sistema.",
-    16: "16 Solicitação - (Contra-Plantão) Com Pendencia: Devido à solicitação ocorrida no horário de plantão, foi gerada uma contra-senha para liberar o acesso ao sistema. No entanto, a pendência não foi resolvida e o cliente foi orientado a entrar em contato com o setor responsável para solução.",
-    17: "17 Solicitação - Erro Impressora de Cupom Fiscal: O cliente solicitou assistência devido a um erro na impressora de cupom fiscal. Foi necessário intervir e fornecer suporte técnico para identificar e resolver as questões relacionadas ao problema da impressora.",
-    18: "18 Solicitação - Erro Impressora de Etiquetas: O cliente solicitou assistência devido a um erro na impressora de etiquetas. Foi necessário intervir e fornecer suporte técnico para identificar e resolver as questões relacionadas ao problema da impressora de etiquetas.",
-    19: "19 Solicitação - Informações do Sistema: O cliente solicitou informações sobre o sistema. O cliente foi orientado e fornecido com as informações do sistema solicitadas.",
+    14: "17 Solicitação - Erro Impressora de Cupom Fiscal: O cliente solicitou assistência devido a um erro na impressora de cupom fiscal. Foi necessário intervir e fornecer suporte técnico para identificar e resolver as questões relacionadas ao problema da impressora.",
+    15: "18 Solicitação - Erro Impressora de Etiquetas: O cliente solicitou assistência devido a um erro na impressora de etiquetas. Foi necessário intervir e fornecer suporte técnico para identificar e resolver as questões relacionadas ao problema da impressora de etiquetas.",
+    16: "19 Solicitação - Informações do Sistema: O cliente solicitou informações sobre o sistema. O cliente foi orientado e fornecido com as informações do sistema solicitadas.",
 }
 
 # Criação da interface do menu
